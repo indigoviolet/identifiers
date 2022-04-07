@@ -1,0 +1,29 @@
+
+* src{d}
+
+https://github.com/src-d/datasets/tree/master/Identifiers
+
+Google drive links are broken: https://github.com/src-d/datasets/issues/174
+
+
+* Github BigQuery dataset
+
+- https://github.blog/2016-06-29-making-open-source-data-more-available/
+
+- https://github.com/fhoffa/analyzing_github
+
+- https://medium.com/google-cloud/analyzing-go-code-with-bigquery-485c70c3b451#.glhi7lrl4
+
+
+** Tables on bigquery
+
+~bigquery-public-data.github_repos.*~
+~fh-bigquery.github_extracts.*~
+
+** UDFs
+
+Can run JS code in UDF
+
+- https://hoffa.medium.com/static-javascript-code-analysis-within-bigquery-ed0e3011732c
+
+Can also run remote functions
